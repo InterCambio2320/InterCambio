@@ -1,0 +1,215 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>felxbox_01</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">¿Fin del dinero en efectivo?</a>
+          <a href="#secc2">Desventajas de la desaparición del dinero en efectivo</a>
+          <a href="#secc3">Realidad de vivir sin efectivo</a>
+          
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>¿Fin del dinero en efectivo?</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>En México la idea de dejar de usar el dinero en efectivo es reciente y se encuentra en camino, por 
+		        lo que se han presentado proyectos con propuestas que hacen referencia a esta posibilidad, haciendo la comparativa con Suiza, donde el efectivo se utiliza en un porcentaje mínimo, además de coincidir que en el caso de los países de América Latina, eliminar el efectivo es una forma de combatir la corrupción, ya que el crimen organizado o la economía informal dependen de éste, pero estos proyectos cuentan una recepción negativa.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Aunque el país ha avanzado en la utilización de medios de pagos electrónicos en los últimos años, todavía el uso de efectivo tiene un peso muy importante. Es por eso que las instituciones bancarias pretenden acercar a la población a los mecanismos digitales con la finalidad de que accedan a sus servicios financieros, donde prometen que sus servicios digitales estarán siempre disponibles y al alcance de las personas y que le enseñarán las ventajas de estos servicios y de esta manera las personas que no tienen cuenta bancaria la contraten,  ya que los pagos en línea se han ido incrementando y utilizando por buena parte de la sociedad, lo que permitirá que el efectivo desaparezca, mencionando que sus finanzas estarán más seguras.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>Al no existir los billetes y monedas, la caja registradora quedará obsoleta, donde todo será de manera digital o a través de códigos y transacciones, por medio de una computadora, la cual es el futuro del dinero digital.</p>
+
+	        		
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p>Al no existir los billetes y monedas, la caja registradora quedará obsoleta, donde todo será de manera digital o a través de códigos y transacciones, por medio de una computadora, la cual es el futuro del dinero digital.</p>
+	        		    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Desventajas de la desaparición del dinero en efectivo</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Si bien es cierto que las transacciones digitales facilitan la realización de pagos y compras a cierto sector de la sociedad, también es un hecho que otro sector de la población será perjudicado, algunas de las desventajas negativas de la desaparición del dinero suponen:</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>-El sector más vulnerable de la sociedad sería dejado de lado.
+		        	<br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+-No todos cuentan con tarjeta de crédito.
+<br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+-Aún hay áreas sin acceso a internet y las telefonías y compañías no ofrecen servicios de calidad.
+<br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+-Parte de la sociedad no sabe utilizar dispositivos o se les dificulta conseguir uno.
+<br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+-Incrementaría el robo de dispositivos y contraseñas.
+<br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+-Incremento de explotación.
+<br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+-Aumento de deudas.
+<br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+-Pérdida de la libertad de administrar nuestro dinero y ahorros.
+<br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="Img 2">
+        		<!--texto para la imagen-->
+        		<p>El cochinito, representativa alcancía de ahorro, ya no podrá ser llenada debido a la desaparición del dinero en efectivo.</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Realidad de vivir sin efectivo</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La tecnología avanza constantemente, es por eso que se considera la posibilidad de vivir en una sociedad sin efectivo, pero esto resulta contradictorio a la vez, ya que muchas personas viven en pobreza extrema, y por ende, sin la posibilidad de tener una cuenta en el banco.</p>
+		        <p>Vivir en un mundo sin efectivo supone problemas de seguridad y privacidad, donde la delincuencia organizada atacaría los sistemas digitales y obtendría nuestra información personal, datos e imagen de nuestro rostro, lo que con el dinero en efectivo no sucede, ya que no es necesario brindar nuestra información cada que realizamos una compra, por lo que se podría decir, es de manera anónima.</p>
+		        <p>Otro problema al que nos podremos enfrentar es a las fallas en el sistema, lo que implicaría no poder realizar los pagos urgentes de manera inmediata, contrario a lo que sucedería si contamos con un pequeño ahorro en efectivo y podemos disponer de el cuando queramos, recordando que a las instituciones no les importan los problemas personales.</p>
+		        <p>Además, el sistema nos mantendría endeudados, ya que constantemente te invitan a realizar compras sin poner límite a ellos, contrario a tener una cantidad limitada de dinero en efectivo que cubra los gastos necesarios y que podemos disponer de el en cualquier momento.</p>
+		        <p>El dinero en efectivo es seguro y confiable, es por eso que una sociedad sin efectivo no es posible cuando existe un gran sector con limitaciones y pobreza que el gobierno no ha podido apoyar. Es por eso que la mejor opción es continuar con la flexibilidad y combinación de pagos digitales y efectivos, por lo menos hasta que toda la sociedad tenga las posibilidades de vivir sin dinero en efectivo.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p>Solo las personas con cuenta bancaria podrán disponer de beneficios, mientras que gran parte de la población no cuenta con posibilidades de poseerla, generando gran desigualdad.</p>
+    		</div>
+
+    	
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/profile.php?id=61552634163458">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/InterCambio2320">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="https://www.instagram.com/intercambio2320/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">Todos los derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
